@@ -307,7 +307,7 @@ function submitForm(){
                 const messageToSend = JSON.stringify({
                     messages: messageValue
                 });
-                fetch('http://localhost:8000/api/v1/ajoutMessage', {
+                fetch('https://regitechoi.herokuapp.com/api/v1/ajoutMessage', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -370,7 +370,7 @@ function submitForm(){
 
         buttonSend.addEventListener("click", sendMessage);
 
-        fetch('http://192.168.0.107:8000/api/v1/message').then(response => response.json()).then(data => {
+        fetch('https://regitechoi.herokuapp.com/api/v1/message').then(response => response.json()).then(data => {
 
 
             for (let i = 0; i < data.length; i++) {
