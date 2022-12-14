@@ -31,7 +31,7 @@
 <!--Prettyphoto-->
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/prettyPhoto.css')}}">
 <!--Font-Awesome-->
-<link rel="stylesheet" type="text/css" href="{{asset('assets/css/font-awesome.css')}}">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
 <!--Owl-Slider-->
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/owl.carousel.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/owl.theme.css')}}">
