@@ -77,11 +77,11 @@
 
     <div class="topnav">
         <a href="{{route('/')}}">
-            <img src="{{asset('assets/images/logo/logoR.png')}}"  alt="">
+            <img src="{{asset('assets/images/Logo/logoR.png')}}"  alt="">
         </a>
         <a href="{{route('etatCart')}}" id="cartt" >
             <span class="fa-stack fa-2x has-badge" style="font-size:1em;" data-count="<?php if(Session::get('idP')!=null){ echo count(Session::get('idP')); } ?>">
-                <img src="{{asset('assets/images/logo/basket.png')}}" alt="">
+                <img src="{{asset('assets/images/Logo/basket.png')}}" alt="">
             </span>
         </a>
     </div>
